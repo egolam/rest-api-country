@@ -1,0 +1,1 @@
+export const regionFilters = ["All","Africa", "America", "Asia", "Europe", "Oceania"];
