@@ -5,7 +5,7 @@ const BorderCountryList = ({ borders }) => {
   return (
     <div className="flex gap-3 font-light flex-wrap">
       {borders.map((br) => (
-        <BorderCountryItem br={br}/>
+        <BorderCountryItem key={br} br={br}/>
       ))}
     </div>
   );

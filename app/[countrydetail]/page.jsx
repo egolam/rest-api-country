@@ -34,7 +34,7 @@ const CountryDetail = ({ params }) => {
       
       
       
-      <article className="h-full w-full flex md:flex-row flex-col md:gap-[7.5rem] gap-10 md:justify-between items-center">
+      <article className="w-full flex md:flex-row flex-col md:gap-[7.5rem] gap-10 md:justify-between items-center md:mt-20">
         <div className="relative md:w-[35rem] w-[20rem] h-[14.375rem] md:h-[25rem] drop-shadow-md rounded-2xl overflow-hidden">
           <Image src={current.flags.svg} fill className="md:object-cover" alt={!current.flags.alt ? "flag" : current.flags.alt} priority/>
         </div>
