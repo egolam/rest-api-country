@@ -16,7 +16,7 @@ const CountryCard = ({ country }) => {
           src={country.flags.svg}
           fill
           style={{ objectFit: "cover" }}
-          alt={country.flags.alt}
+          alt={!country.flags.alt ? "flag" : country.flags.alt}
         />
       </div>
       <div className="p-6 min-h-[11rem] flex flex-col gap-4">

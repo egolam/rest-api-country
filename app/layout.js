@@ -13,10 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${nunito.className} h-dvh dark:bg-[#202C36] transition-all`}>
+      <body
+        className={`${nunito.className} h-dvh dark:bg-[#202C36] transition-all`}
+      >
         <Provider>
           <Header />
-          <main className="h-full bg-[#FAFAFA] dark:bg-[#202C36] md:flex md:justify-center">{children}</main>
+          <main className="h-full bg-[#FAFAFA] dark:bg-[#202C36] md:flex md:justify-center">
+            {children}
+          </main>
         </Provider>
       </body>
     </html>

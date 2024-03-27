@@ -27,7 +27,7 @@ const CountryList = () => {
               .toLowerCase()
               .includes(searchInput.trim().toLowerCase())
           )
-          .map((cr) => <CountryCard key={cr.ccn3} country={cr} />)}
+          .map((cr) => <CountryCard key={cr.cca3} country={cr} />)}
     </article>
   );
 };
